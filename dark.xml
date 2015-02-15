@@ -3,8 +3,8 @@
 
   <!-- Common  -->
 
-  <style name="Base" foreground="#FFFFFF" background="#22282A" bold="0" italic="0" state="-10"/>
-  <style name="BaseHighlight" background="#e0e0e0" />
+  <style name="Base" foreground="#FFFFFF" background="#1B1E1F" bold="0" italic="0" state="-10"/>
+  <style name="BaseHighlight" background="#070B0C" />
   
   <style name="LineHighlight" background="#ffffff" />
   
@@ -15,8 +15,8 @@
   <style name="LineNumberHighlight" foreground="#92B5A9" background="#171E22" />
   <style name="LineNumber" foreground="#778882" background="#293134"/>
   
-  <style name="CollapseArea" foreground="#3F4E49" background="#293134"/>
-  <style name="CollapseBlock" foreground="#3F4E49" background="#293134"/>
+  <style name="CollapseArea" foreground="#778882" background="#293134"/>
+  <style name="CollapseBlock" foreground="#778882" background="#293134"/>
   
   <style name="VerticalLines" foreground="#808080" />
   
