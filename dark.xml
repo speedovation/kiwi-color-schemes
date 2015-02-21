@@ -4,7 +4,7 @@
   <!-- Common  -->
 
   <style name="Base" foreground="#FFFFFF" background="#1B1E1F" bold="0" italic="0" state="-10"/>
-  <style name="BaseHighlight" background="#070B0C" />
+  <style name="BaseHighlight" background="#035084" />
   
   <style name="LineHighlight" background="#ffffff" />
   
@@ -22,7 +22,7 @@
   
   <style name="Tooltip" foreground="#333" background="#f9f9f9"/>
   
-  <style name="SelectionHighlighter" foreground="#fff" background="#505050"/>
+  <style name="SelectionHighlighter" foreground="#ffffff" background="#329E0B"/>
 
   
   <!-- 
