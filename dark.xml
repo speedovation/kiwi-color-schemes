@@ -3,7 +3,7 @@
 
   <!-- Common  -->
 
-  <style name="Base" foreground="#FFFFFF" background="#1B1E1F" bold="0" italic="0" state="-10"/>
+  <style name="Base" foreground="#dddddd" background="#1B1E1F" bold="0" italic="0" state="-10"/>
   <style name="BaseHighlight" background="#035084" />
   
   <style name="LineHighlight" background="#ffffff" />
@@ -130,6 +130,16 @@
   <style name="PythonFunctions" foreground="#678CB1"/>
   <style name="PythonVariable" foreground="#FFCD22"/>
   <style name="PythonVariableValue" foreground="#6d3206"/>
+
+   <!-- Coffee -->
+  <style name="CoffeeScriptComment" foreground="#99A38A"/>
+  <style name="CoffeeScriptNumber" foreground="#FFCD22"/>
+  <style name="CoffeeScriptString" foreground="#EC7600"/>
+  <style name="CoffeeScriptOperator" foreground="#ce395d"/>
+  <style name="CoffeeScriptFuture" foreground="#93C763"/>
+  <style name="CoffeeScriptKeyword" foreground="#93C763"/>
+  <style name="CoffeeScriptFunction" foreground="#678CB1"/>
+  <style name="CoffeeScriptRegex" foreground="#FFCD22"/>
 
   <!-- XML   --> 
 
