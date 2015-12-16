@@ -3,18 +3,23 @@
 
   <!-- Common  -->
 
-  <style name="Base" foreground="#282828" background="#f9f9f9" bold="0" italic="0" state="-10"/>
-  <style name="BaseHighlight" background="#e0e0e0" />
+  <style name="Base" foreground="#282828" background="#FAFAFB" bold="0" italic="0" state="-10"/>
+  <style name="BaseHighlight" background="#D9EAFB" />
   <style name="LineHighlight" background="#fefefe" />
   <style name="ChangedText" background="red" />
   <style name="SavedText" background="darkGreen" />
   <style name="NormalText" background="#f9f9f9" />
-  <style name="LineNumberHighlight" foreground="#0000e6" background="#88AEEA" />
+  <style name="LineNumberHighlight" foreground="#4797F1" background="#88AEEA" />
   <style name="LineNumber" foreground="#bbbbbb" background="#f9f9f9"/>
   <style name="CollapseArea" foreground="#333333" background="#f9f9f9"/>
   <style name="CollapseBlock" foreground="#777777" background="#fbfbfb"/>
   <style name="Tooltip" foreground="#f9f9f9" background="#282828"/>
   
+  
+  <style name="VerticalLines" foreground="#555" />
+  
+  
+  <style name="SelectionHighlighter" foreground="#ffffff" background="#26FDEF"/>
   
   <!-- 
   
@@ -122,5 +127,24 @@
   <style name="PythonVariable" foreground="#5500ee"/>
   <style name="PythonVariableValue" foreground="#6d3206"/>
 
+ <!-- Coffee -->
+  <style name="CoffeeScriptComment" foreground="#99A38A"/>
+  <style name="CoffeeScriptNumber" foreground="#FFCD22"/>
+  <style name="CoffeeScriptString" foreground="#EC7600"/>
+  <style name="CoffeeScriptOperator" foreground="#ce395d"/>
+  <style name="CoffeeScriptFuture" foreground="#93C763"/>
+  <style name="CoffeeScriptKeyword" foreground="#93C763"/>
+  <style name="CoffeeScriptFunction" foreground="#678CB1"/>
+  <style name="CoffeeScriptRegex" foreground="#FFCD22"/>
+
+  <!-- XML   --> 
+
+  <style name="JsSyntaxChar" foreground="#93C763"/>
+  <style name="JsElementName" foreground="#93C763"/>
+  <style name="JsComment" foreground="#99A38A"/>
+  <style name="JsAttributeName" foreground="#678CB1"/>
+  <style name="JsAttributeValue" foreground="#EC7600"/>
+  <style name="JsError" foreground="#cacaca"/>
+  <style name="JsOther" foreground="#93C763"/>
 
 </style-scheme>
