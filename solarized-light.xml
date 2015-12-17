@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <!-- ***************************************************************************
 **
 ** Copyright (C) 2007-2015 Speedovation
@@ -12,7 +14,6 @@
 **
 ** All rights are reserved. -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <style-scheme version="1.0" name="Default">
 
   <!-- Common  -->
