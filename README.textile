@@ -1,8 +1,5 @@
 h1. Kineticwing IDE - Text Color Schemes
 
-^Doc Version : 1.0^
-^IDE Version : 2.0.6^
-
 
 h2. Introduction
 
@@ -11,7 +8,12 @@ Collections of KiWi Text Themes - Color Schemes
 
 h2. TODO:
 
-*  Working on default dark and light themes
+Working on other popular schemes like monokia
+
+
+h2. Fixed
+
+Created default dark and light themes
 
 
 h2. License
