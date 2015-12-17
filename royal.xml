@@ -4,16 +4,28 @@
   <!-- Common  -->
 
   <style name="Base" foreground="#f9f9f9" background="#282828" bold="0" italic="0" state="-10"/>
+  
   <style name="BaseHighlight" background="#e0e0e0" />
   <style name="LineHighlight" background="#fefefe" />
+  
   <style name="ChangedText" background="red" />
   <style name="SavedText" background="darkGreen" />
   <style name="NormalText" background="#282828" />
+ 
+  <style name="LineNumberHighlight" foreground="#92B5A9" background="#171E22" />
   <style name="LineNumber" foreground="#f9f9f9" background="#282828"/>
+
   <style name="CollapseArea" foreground="#f9f9f9" background="#282828"/>
   <style name="CollapseBlock" foreground="#f9f9f9" background="#444"/>
 
+  <style name="VerticalLines" foreground="#808080" />
   
+  <style name="Tooltip" foreground="#333" background="#f9f9f9"/>
+  
+  <style name="SelectionHighlighter" foreground="#ffffff" background="#329E0B"/>
+
+   <style name="ErrorMarker" foreground="red" background="yellow" underline="6"/>
+
   <style name="Front" foreground="#00aa00"/>
   <style name="Sidebar" foreground="#00aa00"/>
   
@@ -85,5 +97,15 @@
   <style name="PythonFunctions" foreground="#00aaff"/>
   <style name="PythonVariable" foreground="#6d3206"/>
 
+
+  <!-- XML   --> 
+
+  <style name="JsSyntaxChar" foreground="#93C763"/>
+  <style name="JsElementName" foreground="#93C763"/>
+  <style name="JsComment" foreground="#99A38A"/>
+  <style name="JsAttributeName" foreground="#678CB1"/>
+  <style name="JsAttributeValue" foreground="#EC7600"/>
+  <style name="JsError" foreground="#cacaca"/>
+  <style name="JsOther" foreground="#93C763"/>
 
 </style-scheme>

@@ -9,12 +9,19 @@
   <style name="ChangedText" background="red" />
   <style name="SavedText" background="darkGreen" />
   <style name="NormalText" background="#f9f9f9" />
+ 
   <style name="LineNumberHighlight" foreground="#0000e6" background="#88AEEA" />
   <style name="LineNumber" foreground="#000000" background="#E3D5C1"/>
+  
   <style name="CollapseArea" foreground="#111111" background="#E3D5C1"/>
   <style name="CollapseBlock" foreground="#777777" background="#fbfbfb"/>
+  
+  <style name="VerticalLines" foreground="#808080" />
+  
   <style name="Tooltip" foreground="#f9f9f9" background="#282828"/>
   
+  <style name="SelectionHighlighter" foreground="#ffffff" background="#329E0B"/>
+
   
   <!-- 
   
@@ -122,5 +129,12 @@
   <style name="PythonVariable" foreground="#5500ee"/>
   <style name="PythonVariableValue" foreground="#6d3206"/>
 
+  <style name="JsSyntaxChar" foreground="#93C763"/>
+  <style name="JsElementName" foreground="#93C763"/>
+  <style name="JsComment" foreground="#99A38A"/>
+  <style name="JsAttributeName" foreground="#678CB1"/>
+  <style name="JsAttributeValue" foreground="#EC7600"/>
+  <style name="JsError" foreground="#cacaca"/>
+  <style name="JsOther" foreground="#93C763"/>
 
 </style-scheme>
