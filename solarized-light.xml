@@ -37,7 +37,7 @@
   
   <style name="Tooltip" foreground="#333" background="#f9f9f9"/>
   
-  <style name="SelectionHighlighter" foreground="#fff" background="#505050"/>
+  <style name="SelectionHighlighter"  background="#505050"/>
 
   
   <!-- 

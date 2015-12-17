@@ -34,7 +34,7 @@
   <style name="VerticalLines" foreground="#555" />
   
   
-  <style name="SelectionHighlighter" foreground="#ffffff" background="#26FDEF"/>
+  <style name="SelectionHighlighter" background="#26FDEF"/>
   
   <!-- 
   
