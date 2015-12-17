@@ -148,13 +148,13 @@
 
   <!-- XML   --> 
 
-  <style name="JsSyntaxChar" foreground="#d33682"/>
-  <style name="JsElementName" foreground="#d33682"/>
-  <style name="JsComment" foreground="#93a1a1"/>
-  <style name="JsAttributeName" foreground="#b58900"/>
-  <style name="JsAttributeValue" foreground="#2aa198"/>
-  <style name="JsError" foreground="#dc322f"/>
-  <style name="JsOther" foreground="#6c71c4"/>
+  <style name="XmlSyntaxChar" foreground="#d33682"/>
+  <style name="XmlElementName" foreground="#d33682"/>
+  <style name="XmlComment" foreground="#93a1a1"/>
+  <style name="XmlAttributeName" foreground="#b58900"/>
+  <style name="XmlAttributeValue" foreground="#2aa198"/>
+  <style name="XmlError" foreground="#dc322f"/>
+  <style name="XmlOther" foreground="#6c71c4"/>
 
 
 </style-scheme>

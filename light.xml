@@ -154,12 +154,12 @@
 
   <!-- XML   --> 
 
-  <style name="JsSyntaxChar" foreground="#93C763"/>
-  <style name="JsElementName" foreground="#93C763"/>
-  <style name="JsComment" foreground="#99A38A"/>
-  <style name="JsAttributeName" foreground="#678CB1"/>
-  <style name="JsAttributeValue" foreground="#EC7600"/>
-  <style name="JsError" foreground="#cacaca"/>
-  <style name="JsOther" foreground="#93C763"/>
+  <style name="XmlSyntaxChar" foreground="#93C763"/>
+  <style name="XmlElementName" foreground="#93C763"/>
+  <style name="XmlComment" foreground="#99A38A"/>
+  <style name="XmlAttributeName" foreground="#678CB1"/>
+  <style name="XmlAttributeValue" foreground="#EC7600"/>
+  <style name="XmlError" foreground="#cacaca"/>
+  <style name="XmlOther" foreground="#93C763"/>
 
 </style-scheme>
