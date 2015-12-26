@@ -126,6 +126,9 @@
   <style name="PhpIdentifier" foreground="#0000e6"/>
   <style name="PhpKeyword" foreground="#0000e6"/>
   <style name="PhpFunction" foreground="#0B486B"/>
+  <style name="PhpStandardFunction" foreground="#A02DCC"/>
+  <style name="PhpMagicFunction" foreground="#AF1818"/>
+  <style name="PhpNameSpace" foreground="red"/>
   <style name="PhpVariable" foreground="#0F8F44"/>
   
    <!-- Python  -->
@@ -161,5 +164,19 @@
   <style name="XmlAttributeValue" foreground="#EC7600"/>
   <style name="XmlError" foreground="#cacaca"/>
   <style name="XmlOther" foreground="#93C763"/>
+
+
+<!-- MySql  -->
+  <style name="Background" foreground="#00aa00"/>
+  <style name="NormalMySql" foreground="#333333"/>
+  <style name="MySqlComment" foreground="#73748e"/>
+  <style name="MySqlNumber" foreground="#d35e2c"/>
+  <style name="MySqlString" foreground="#0b6125"/>
+  <style name="MySqlOperator" foreground="#808000"/>
+  <style name="MySqlIdentifier" foreground="#00c500"/>
+  <style name="MySqlKeyword" foreground="#b83926"/>
+  <style name="MySqlEncode" foreground="#d35e2c"/>
+  <style name="MySqlFunction" foreground="blue"/>
+  <style name="MySqlType" foreground="#5500ee"/>
 
 </style-scheme>
