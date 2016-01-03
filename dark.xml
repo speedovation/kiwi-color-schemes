@@ -14,30 +14,22 @@
 **
 ** All rights are reserved. -->
 
-
 <style-scheme version="1.0" name="Default">
 
   <!-- Common  -->
 
   <style name="Base" foreground="#dddddd" background="#1B1E1F" bold="0" italic="0" state="-10"/>
   <style name="BaseHighlight" background="#035084" />
-  
   <style name="LineHighlight" background="#ffffff" />
-  
   <style name="ChangedText" background="#FF5D5D" />
   <style name="SavedText" background="#34E9AC" />
   <style name="NormalText" background="#293134" />
-  
   <style name="LineNumberHighlight" foreground="#92B5A9" background="#171E22" />
   <style name="LineNumber" foreground="#778882" background="#293134"/>
-  
   <style name="CollapseArea" foreground="#778882" background="#293134"/>
   <style name="CollapseBlock" foreground="#778882" background="#293134"/>
-  
   <style name="VerticalLines" foreground="#808080" />
-  
   <style name="Tooltip" foreground="#333" background="#f9f9f9"/>
-  
   <style name="SelectionHighlighter" background="#329E0B"/>
 
   
@@ -131,6 +123,9 @@
   <style name="PhpIdentifier" foreground="#93C763"/>
   <style name="PhpKeyword" foreground="#93C763"/>
   <style name="PhpFunction" foreground="#0B486B"/>
+  <style name="PhpStandardFunction" foreground="#d35e2c"/>
+  <style name="PhpMagicFunction" foreground="#ce395d"/>
+  <style name="PhpNameSpace" foreground="#678CB1"/>
   <style name="PhpVariable" foreground="#E8E2B7"/>
   
    <!-- Python   -->
@@ -166,6 +161,19 @@
   <style name="XmlAttributeValue" foreground="#EC7600"/>
   <style name="XmlError" foreground="#cacaca"/>
   <style name="XmlOther" foreground="#93C763"/>
+
+<!-- MySql  -->
+
+  <style name="NormalMySql" foreground="#333333"/>
+  <style name="MySqlComment" foreground="#73748e"/>
+  <style name="MySqlNumber" foreground="#d35e2c"/>
+  <style name="MySqlString" foreground="#0b6125"/>
+  <style name="MySqlOperator" foreground="#808000"/>
+  <style name="MySqlIdentifier" foreground="#00c500"/>
+  <style name="MySqlKeyword" foreground="#b83926"/>
+  <style name="MySqlEncode" foreground="#d35e2c"/>
+  <style name="MySqlFunction" foreground="blue"/>
+  <style name="MySqlType" foreground="#5500ee"/>
 
 
 </style-scheme>
