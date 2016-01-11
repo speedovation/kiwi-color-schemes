@@ -100,7 +100,7 @@
   
   <style name="LessHighlightBlocks" background="#fdfdfd"/>  
 
- <!-- JavaScript  -->
+  <!-- JavaScript  -->
   <style name="Background" foreground="#00aa00"/>
   <style name="NormalJavascript" foreground="#333333"/>
   <style name="JavaScriptComment" foreground="#73748e"/>
@@ -131,7 +131,7 @@
   <style name="PhpNameSpace" foreground="red"/>
   <style name="PhpVariable" foreground="#0F8F44"/>
   
-   <!-- Python  -->
+  <!-- Python  -->
   <style name="PythonBackground" foreground="#00aa00"/>
   <style name="PythonNormal" foreground="#282828"/>
   <style name="PythonComment" foreground="#969696"/>
@@ -145,7 +145,7 @@
   <style name="PythonVariable" foreground="#5500ee"/>
   <style name="PythonVariableValue" foreground="#6d3206"/>
 
- <!-- Coffee -->
+  <!-- Coffee -->
   <style name="CoffeeScriptComment" foreground="#99A38A"/>
   <style name="CoffeeScriptNumber" foreground="#FFCD22"/>
   <style name="CoffeeScriptString" foreground="#EC7600"/>
@@ -166,7 +166,7 @@
   <style name="XmlOther" foreground="#93C763"/>
 
 
-<!-- MySql  -->
+  <!-- MySql  -->
   <style name="Background" foreground="#00aa00"/>
   <style name="NormalMySql" foreground="#333333"/>
   <style name="MySqlComment" foreground="#73748e"/>
@@ -178,5 +178,12 @@
   <style name="MySqlEncode" foreground="#d35e2c"/>
   <style name="MySqlFunction" foreground="blue"/>
   <style name="MySqlType" foreground="#5500ee"/>
+
+   <!-- JSON   -->
+  <style name="JsonNormal" foreground="#282828"/>
+  <style name="JsonNumber" foreground="#FFCD22"/>
+  <style name="JsonString" foreground="#EC7600"/>
+  <style name="JsonOperator" foreground="#A02DCC"/>
+  <style name="JsonIdentifier" foreground="#93C763"/>
 
 </style-scheme>
