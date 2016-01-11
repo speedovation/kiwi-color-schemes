@@ -123,8 +123,8 @@
   <style name="PhpIdentifier" foreground="#93C763"/>
   <style name="PhpKeyword" foreground="#93C763"/>
   <style name="PhpFunction" foreground="#0B486B"/>
-  <style name="PhpStandardFunction" foreground="#d35e2c"/>
-  <style name="PhpMagicFunction" foreground="#ce395d"/>
+  <style name="PhpStandardFunction" foreground="#EFE96E"/>
+  <style name="PhpMagicFunction" foreground="#EFEA4F"/>
   <style name="PhpNameSpace" foreground="#678CB1"/>
   <style name="PhpVariable" foreground="#E8E2B7"/>
   
@@ -175,5 +175,18 @@
   <style name="MySqlFunction" foreground="blue"/>
   <style name="MySqlType" foreground="#5500ee"/>
 
+   <!-- JSON   -->
+  <style name="JsonBackground" foreground="#00aa00"/>
+  <style name="JsonNormal" foreground="#282828"/>
+  <style name="JsonComment" foreground="#99A38A"/>
+  <style name="JsonNumber" foreground="#FFCD22"/>
+  <style name="JsonString" foreground="#EC7600"/>
+  <style name="JsonDocString" foreground="#7D8C93"/>
+  <style name="JsonOperator" foreground="#93C763"/>
+  <style name="JsonIdentifier" foreground="#93C763"/>
+  <style name="JsonKeyword" foreground="#93C763"/>
+  <style name="JsonFunctions" foreground="#678CB1"/>
+  <style name="JsonVariable" foreground="#FFCD22"/>
+  <style name="JsonVariableValue" foreground="#6d3206"/>
 
 </style-scheme>
