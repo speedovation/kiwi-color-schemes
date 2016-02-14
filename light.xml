@@ -32,12 +32,12 @@
 
 
   <style name="VerticalLines" foreground="#555" />
-  
-  
+
+
   <style name="SelectionHighlighter" background="#26FDEF"/>
-  
-  <!-- 
-  
+
+  <!--
+
 	QTextCharFormat::NoUnderline	0	Text is draw without any underlining decoration.
 	QTextCharFormat::SingleUnderline	1	A line is drawn using Qt::SolidLine.
 	QTextCharFormat::DashUnderline	2	Dashes are drawn using Qt::DashLine.
@@ -48,13 +48,13 @@
 	QTextCharFormat::SpellCheckUnderline	7
 
   -->
-  
-  <style name="ErrorMarker" foreground="red" background="yellow" underline="6"/>
 
-  
+  <style name="ErrorMarker" foreground="red" background="yellow" underline="2"/>
+
+
   <style name="Front" foreground="#00aa00"/>
   <style name="Sidebar" foreground="#00aa00"/>
-  
+
   <style name="Cursor" foreground="#00aa00"/>
   <style name="Marker" foreground="#ffff00"/>
 
@@ -82,7 +82,7 @@
   <style name="CssSymbol" foreground="#7d7dba"/>
   <style name="CssNumber" foreground="#aa0000"/>
   <style name="CssHighlightBlocks" background="#FFF5D1"/>
-  
+
   <!-- Less  -->
   <style name="LessSelector" foreground="#0B486B" bold="1" />
   <style name="LessProperty" foreground="#dc6924" italic="0" />
@@ -97,8 +97,8 @@
   <style name="LessVariable" foreground="#00b9a9"/>
   <style name="LessVariableValue" foreground="#009009"/>
   <style name="LessMixins" foreground="#E01B1B" bold="1"/>
-  
-  <style name="LessHighlightBlocks" background="#fdfdfd"/>  
+
+  <style name="LessHighlightBlocks" background="#fdfdfd"/>
 
   <!-- JavaScript  -->
   <style name="Background" foreground="#00aa00"/>
@@ -125,15 +125,25 @@
   <style name="PhpOperator" foreground="#9C1C6B"/>
   <style name="PhpIdentifier" foreground="#0000e6"/>
   <style name="PhpKeyword" foreground="#0000e6"/>
-  <style name="PhpFunction" foreground="#0B486B"/>
+  <style name="PhpFunction" foreground="#cc00ff"  bold="0"/>
+  <style name="PhpMethod" foreground="#cc00ff"  bold="0"/>
   <style name="PhpStandardFunction" foreground="#A02DCC"/>
   <style name="PhpMagicFunction" foreground="#AF1818"/>
   <style name="PhpNameSpace" foreground="red"/>
   <style name="PhpVariable" foreground="#0F8F44"/>
-  <style name="PhpClass" foreground="#E01B1B"/>
+  <style name="PhpClass" foreground="#d91161"  bold="0" />
   <style name="PhpTrait" foreground="green"/>
   <style name="PhpInterface" foreground="yellow"/>
-  
+  <style name="PhpBroken" foreground="red"/>
+  <style name="PhpError" foreground="red"  />
+  <style name="PhpHover" foreground="red" underline="1" />
+
+
+
+
+
+
+
   <!-- Python  -->
   <style name="PythonBackground" foreground="#00aa00"/>
   <style name="PythonNormal" foreground="#282828"/>
@@ -158,7 +168,7 @@
   <style name="CoffeeScriptFunction" foreground="#678CB1"/>
   <style name="CoffeeScriptRegex" foreground="#FFCD22"/>
 
-  <!-- XML   --> 
+  <!-- XML   -->
 
   <style name="XmlSyntaxChar" foreground="#93C763"/>
   <style name="XmlElementName" foreground="#93C763"/>
