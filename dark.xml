@@ -18,9 +18,9 @@
 
   <!-- Common  -->
 
-  <style name="Base" foreground="#dddddd" background="#1B1E1F" bold="0" italic="0" state="-10"/>
+  <style name="Base" foreground="#BFCCD0" background="#22282A" bold="0" italic="0" state="-10"/>
   <style name="BaseHighlight" background="#035084" />
-  <style name="LineHighlight" background="#ffffff" />
+  <style name="LineHighlight" background="#000" />
   <style name="ChangedText" background="#FF5D5D" />
   <style name="SavedText" background="#34E9AC" />
   <style name="NormalText" background="#293134" />
@@ -46,7 +46,7 @@
 
   -->
   
-  <style name="ErrorMarker" foreground="red" background="yellow" underline="6"/>
+  <style name="ErrorMarker" foreground="red" background="black" underline="6"/>
 
   
   <style name="Front" foreground="#00aa00"/>
