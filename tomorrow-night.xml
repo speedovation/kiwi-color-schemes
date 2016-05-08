@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ***************************************************************************
+**
+** Copyright (C) 2007-2016 Speedovation
+** Contact: Speedovation Lab (info@speedovation.com)
+**
+** KineticWing Text Color Schemes
+** http:// kineticwing.com
+** This file is part of the core classes of the KiWi Editor (IDE)
+**
+** Author: Yash Bhardwaj
+** License : Apache License 2.0
+**
+** All rights are reserved. -->
+
+<style-scheme version="1.0" name="Default">
+
+  <!-- Common  -->
+
+  <style name="Base" foreground="#C5C8C6" background="#1D1F21" bold="0" italic="0" state="-10"/>
+  <style name="BaseHighlight" background="#D9EAFB" />
+  <style name="LineHighlight" background="#fefefe" />
+  <style name="ChangedText" background="red" />
+  <style name="SavedText" background="darkGreen" />
+  <style name="NormalText" background="#27292B" />
+  <style name="LineNumberHighlight" foreground="#4797F1" background="#88AEEA" />
+  <style name="LineNumber" foreground="#bbbbbb" background="#27292B"/>
+  <style name="CollapseArea" foreground="#333333" background="#27292B"/>
+  <style name="CollapseBlock" foreground="#777777" background="#fbfbfb"/>
+  <style name="Tooltip" foreground="#222" background="#ccc"/>
+
+
+  <style name="VerticalLines" foreground="#555" />
+
+
+  <style name="SelectionHighlighter" background="#26FDEF"/>
+
+  <!--
+
+	QTextCharFormat::NoUnderline	0	Text is draw without any underlining decoration.
+	QTextCharFormat::SingleUnderline	1	A line is drawn using Qt::SolidLine.
+	QTextCharFormat::DashUnderline	2	Dashes are drawn using Qt::DashLine.
+	QTextCharFormat::DotLine	3	Dots are drawn using Qt::DotLine;
+	QTextCharFormat::DashDotLine	4	Dashs and dots are drawn using Qt::DashDotLine.
+	QTextCharFormat::DashDotDotLine	5	Underlines draw drawn using Qt::DashDotDotLine.
+	QTextCharFormat::WaveUnderline	6	The text is underlined using a wave shaped line.
+	QTextCharFormat::SpellCheckUnderline	7
+
+  -->
+
+  <style name="ErrorMarker" foreground="red" background="yellow" underline="2"/>
+
+
+  <style name="Front" foreground="#00aa00"/>
+  <style name="Sidebar" foreground="#00aa00"/>
+
+  <style name="Cursor" foreground="#00aa00"/>
+  <style name="Marker" foreground="#ffff00"/>
+
+  <style name="BracketMatch" foreground="#00aa00"/>
+  <style name="BracketError" foreground="#00aa00"/>
+  <style name="FoldIndicator" foreground="#00aa00"/>
+
+  <!-- HTML  -->
+  <style name="Doctype" foreground="#628fb5"/>
+  <style name="Entity" bold="1"/>
+  <style name="Tag" foreground="#B294BB"/>
+  <style name="HtmlComment" foreground="#969896"/>
+  <style name="Attribute" foreground="#DE935F"/>
+  <style name="HtmlValue" foreground="#B5BD68"/>
+
+  <!-- CSS  -->
+  <style name="Selector" foreground="#B294BB" bold="0" />
+  <style name="Property" foreground="#DE935F" italic="0" />
+  <style name="CssValue" foreground="#B5BD68" />
+  <style name="CssComment" foreground="#969896"/>
+  <style name="Import" foreground="#395f5f"/>
+  <style name="Media" foreground="#00aa00"/>
+  <style name="Charset" foreground="#aa55ff"/>
+  <style name="CssString" foreground="#B5BD68"/>
+  <style name="CssSymbol" foreground="#7d7dba"/>
+  <style name="CssNumber" foreground="#aa0000"/>
+  <style name="CssHighlightBlocks" background="#FFF5D1"/>
+
+  <!-- Less  -->
+  <style name="LessSelector" foreground="#B294BB" bold="1" />
+  <style name="LessProperty" foreground="#DE935F" italic="0" />
+  <style name="LessValue" foreground="#B5BD68" />
+  <style name="LessComment" foreground="#969896"/>
+  <style name="LessImport" foreground="#395f5f"/>
+  <style name="LessMedia" foreground="#00aa00"/>
+  <style name="LessCharset" foreground="#aa55ff"/>
+  <style name="LessString" foreground="#B5BD68"/>
+  <style name="LessSymbol" foreground="#7d7dba"/>
+  <style name="LessNumber" foreground="#aa0000"/>
+  <style name="LessVariable" foreground="#00b9a9"/>
+  <style name="LessVariableValue" foreground="#009009"/>
+  <style name="LessMixins" foreground="#E01B1B" bold="1"/>
+
+  <style name="LessHighlightBlocks" background="#fdfdfd"/>
+
+  <!-- JavaScript  -->
+  <style name="Background" foreground="#00aa00"/>
+  <style name="NormalJavascript" foreground="#333333"/>
+  <style name="JavaScriptComment" foreground="#969896"/>
+  <style name="JavaScriptNumber" foreground="#d35e2c"/>
+  <style name="JavaScriptString" foreground="#B5BD68"/>
+  <style name="JavaScriptOperator" foreground="#808000"/>
+  <style name="JavaScriptIdentifier" foreground="#00c500"/>
+  <style name="JavaScriptKeyword" foreground="#b83926"/>
+  <style name="JavaScriptFuture" foreground="#d35e2c"/>
+  <style name="JavaScriptFunction" foreground="blue"/>
+  <style name="JavaScriptRegex" foreground="#5500ee"/>
+
+  <!-- PHP  -->
+  <style name="PhpBegin" foreground="#E01B1B" bold="1"/>
+  <style name="PhpEnd" foreground="#E01B1B" bold="1"/>
+  <style name="PhpBackground" foreground="#00aa00"/>
+  <style name="PhpNormal" foreground="#282828"/>
+  <style name="PhpOxygenComment" foreground="#88AEEA"/>
+  <style name="PhpComment" foreground="#969896"/>
+  <style name="PhpNumber" foreground="#ff0000"/>
+  <style name="PhpString" foreground="#B5BD68"/>
+  <style name="PhpOperator" foreground="#9C1C6B"/>
+  <style name="PhpIdentifier" foreground="#0000e6"/>
+  <style name="PhpKeyword" foreground="#0000e6"/>
+  <style name="PhpFunction" foreground="#cc00ff"  bold="0"/>
+  <style name="PhpMethod" foreground="#cc00ff"  bold="0"/>
+  <style name="PhpStandardFunction" foreground="#A02DCC"/>
+  <style name="PhpMagicFunction" foreground="#AF1818"/>
+  <style name="PhpNameSpace" foreground="red"/>
+  <style name="PhpVariable" foreground="#0F8F44"/>
+  <style name="PhpClass" foreground="#d91161"  bold="0" />
+  <style name="PhpTrait" foreground="green"/>
+  <style name="PhpInterface" foreground="yellow"/>
+  <style name="PhpBroken" foreground="red"/>
+  <style name="PhpError" foreground="red"  />
+  <style name="PhpHover" foreground="red" underline="1" />
+
+
+
+
+
+
+
+  <!-- Python  -->
+  <style name="PythonBackground" foreground="#00aa00"/>
+  <style name="PythonNormal" foreground="#282828"/>
+  <style name="PythonComment" foreground="#969896"/>
+  <style name="PythonNumber" foreground="#ff0000"/>
+  <style name="PythonString" foreground="#B5BD68"/>
+  <style name="PythonDocString" foreground="#B5BD68"/>
+  <style name="PythonOperator" foreground="#ce395d"/>
+  <style name="PythonIdentifier" foreground="#00c500"/>
+  <style name="PythonKeyword" foreground="#0000e6"/>
+  <style name="PythonFunctions" foreground="#00aaff"/>
+  <style name="PythonVariable" foreground="#5500ee"/>
+  <style name="PythonVariableValue" foreground="#6d3206"/>
+
+  <!-- Coffee -->
+  <style name="CoffeeScriptComment" foreground="#969896"/>
+  <style name="CoffeeScriptNumber" foreground="#FFCD22"/>
+  <style name="CoffeeScriptString" foreground="#B5BD68"/>
+  <style name="CoffeeScriptOperator" foreground="#ce395d"/>
+  <style name="CoffeeScriptFuture" foreground="#B294BB"/>
+  <style name="CoffeeScriptKeyword" foreground="#B294BB"/>
+  <style name="CoffeeScriptFunction" foreground="#DE935F"/>
+  <style name="CoffeeScriptRegex" foreground="#FFCD22"/>
+
+  <!-- XML   -->
+
+  <style name="XmlSyntaxChar" foreground="#B294BB"/>
+  <style name="XmlElementName" foreground="#B294BB"/>
+  <style name="XmlComment" foreground="#969896"/>
+  <style name="XmlAttributeName" foreground="#DE935F"/>
+  <style name="XmlAttributeValue" foreground="#B5BD68"/>
+  <style name="XmlError" foreground="#cacaca"/>
+  <style name="XmlOther" foreground="#B294BB"/>
+
+
+  <!-- MySql  -->
+  <style name="Background" foreground="#00aa00"/>
+  <style name="NormalMySql" foreground="#333333"/>
+  <style name="MySqlComment" foreground="#969896"/>
+  <style name="MySqlNumber" foreground="#d35e2c"/>
+  <style name="MySqlString" foreground="#B5BD68"/>
+  <style name="MySqlOperator" foreground="#808000"/>
+  <style name="MySqlIdentifier" foreground="#00c500"/>
+  <style name="MySqlKeyword" foreground="#b83926"/>
+  <style name="MySqlEncode" foreground="#d35e2c"/>
+  <style name="MySqlFunction" foreground="blue"/>
+  <style name="MySqlType" foreground="#5500ee"/>
+
+   <!-- JSON   -->
+  <style name="JsonNormal" foreground="#282828"/>
+  <style name="JsonNumber" foreground="#FFCD22"/>
+  <style name="JsonString" foreground="#B5BD68"/>
+  <style name="JsonOperator" foreground="#A02DCC"/>
+  <style name="JsonIdentifier" foreground="#B294BB"/>
+
+</style-scheme>
