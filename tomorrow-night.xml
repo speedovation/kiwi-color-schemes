@@ -19,13 +19,13 @@
   <!-- Common  -->
 
   <style name="Base" foreground="#C5C8C6" background="#1D1F21" bold="0" italic="0" state="-10"/>
-  <style name="BaseHighlight" background="#D9EAFB" />
+  <style name="BaseHighlight" background="#766548" />
   <style name="LineHighlight" background="#fefefe" />
   <style name="ChangedText" background="red" />
   <style name="SavedText" background="darkGreen" />
   <style name="NormalText" background="#27292B" />
   <style name="LineNumberHighlight" foreground="#4797F1" background="#88AEEA" />
-  <style name="LineNumber" foreground="#bbbbbb" background="#27292B"/>
+  <style name="LineNumber" foreground="#C5C8C6" background="#27292B"/>
   <style name="CollapseArea" foreground="#333333" background="#27292B"/>
   <style name="CollapseBlock" foreground="#777777" background="#fbfbfb"/>
   <style name="Tooltip" foreground="#222" background="#ccc"/>
@@ -34,7 +34,7 @@
   <style name="VerticalLines" foreground="#555" />
 
 
-  <style name="SelectionHighlighter" background="#26FDEF"/>
+  <style name="SelectionHighlighter" background="#373B41"/>
 
   <!--
 
@@ -65,7 +65,7 @@
   <!-- HTML  -->
   <style name="Doctype" foreground="#628fb5"/>
   <style name="Entity" bold="1"/>
-  <style name="Tag" foreground="#B294BB"/>
+  <style name="Tag" foreground="#B294BB" bold="1"/>
   <style name="HtmlComment" foreground="#969896"/>
   <style name="Attribute" foreground="#DE935F"/>
   <style name="HtmlValue" foreground="#B5BD68"/>
@@ -114,32 +114,28 @@
   <style name="JavaScriptRegex" foreground="#5500ee"/>
 
   <!-- PHP  -->
-  <style name="PhpBegin" foreground="#E01B1B" bold="1"/>
-  <style name="PhpEnd" foreground="#E01B1B" bold="1"/>
+  <style name="PhpBegin" foreground="#FFCD22" bold="1"/>
+  <style name="PhpEnd" foreground="#FFCD22" bold="1"/>
   <style name="PhpBackground" foreground="#00aa00"/>
   <style name="PhpNormal" foreground="#282828"/>
-  <style name="PhpOxygenComment" foreground="#88AEEA"/>
+  <style name="PhpOxygenComment" foreground="#7D8C93"/>
   <style name="PhpComment" foreground="#969896"/>
-  <style name="PhpNumber" foreground="#ff0000"/>
-  <style name="PhpString" foreground="#B5BD68"/>
-  <style name="PhpOperator" foreground="#9C1C6B"/>
-  <style name="PhpIdentifier" foreground="#0000e6"/>
-  <style name="PhpKeyword" foreground="#0000e6"/>
-  <style name="PhpFunction" foreground="#cc00ff"  bold="0"/>
-  <style name="PhpMethod" foreground="#cc00ff"  bold="0"/>
-  <style name="PhpStandardFunction" foreground="#A02DCC"/>
-  <style name="PhpMagicFunction" foreground="#AF1818"/>
-  <style name="PhpNameSpace" foreground="red"/>
-  <style name="PhpVariable" foreground="#0F8F44"/>
+  <style name="PhpNumber" foreground="#FFCD22"/>
+  <style name="PhpString" foreground="#EC7600"/>
+  <style name="PhpOperator" foreground="#93C763"/>
+  <style name="PhpIdentifier" foreground="#93C763"/>
+  <style name="PhpKeyword" foreground="#93C763"/>
+  <style name="PhpFunction" foreground="#0B486B"/>
+  <style name="PhpStandardFunction" foreground="#EFE96E"/>
+  <style name="PhpMagicFunction" foreground="#EFEA4F"/>
+  <style name="PhpNameSpace" foreground="#678CB1"/>
+  <style name="PhpVariable" foreground="#E8E2B7"/>
   <style name="PhpClass" foreground="#d91161"  bold="0" />
   <style name="PhpTrait" foreground="green"/>
   <style name="PhpInterface" foreground="yellow"/>
   <style name="PhpBroken" foreground="red"/>
   <style name="PhpError" foreground="red"  />
   <style name="PhpHover" foreground="red" underline="1" />
-
-
-
 
 
 
@@ -170,8 +166,8 @@
 
   <!-- XML   -->
 
-  <style name="XmlSyntaxChar" foreground="#B294BB"/>
-  <style name="XmlElementName" foreground="#B294BB"/>
+  <style name="XmlSyntaxChar" foreground="#B294BB" bold="1"/>
+  <style name="XmlElementName" foreground="#B294BB" bold="1"/>
   <style name="XmlComment" foreground="#969896"/>
   <style name="XmlAttributeName" foreground="#DE935F"/>
   <style name="XmlAttributeValue" foreground="#B5BD68"/>
