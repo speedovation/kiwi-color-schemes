@@ -117,20 +117,20 @@
   <style name="PhpBegin" foreground="#FFCD22" bold="1"/>
   <style name="PhpEnd" foreground="#FFCD22" bold="1"/>
   <style name="PhpBackground" foreground="#00aa00"/>
-  <style name="PhpNormal" foreground="#282828"/>
+  <style name="PhpNormal" foreground="#C5C8C6"/>
   <style name="PhpOxygenComment" foreground="#7D8C93"/>
   <style name="PhpComment" foreground="#969896"/>
   <style name="PhpNumber" foreground="#FFCD22"/>
-  <style name="PhpString" foreground="#EC7600"/>
-  <style name="PhpOperator" foreground="#93C763"/>
-  <style name="PhpIdentifier" foreground="#93C763"/>
-  <style name="PhpKeyword" foreground="#93C763"/>
+  <style name="PhpString" foreground="#B5BD68"/>
+  <style name="PhpOperator" foreground="#B294BB"/>
+  <style name="PhpIdentifier" foreground="#B294BB"  bold="1" />
+  <style name="PhpKeyword" foreground="#B294BB" bold="1" />
   <style name="PhpFunction" foreground="#0B486B"/>
   <style name="PhpStandardFunction" foreground="#EFE96E"/>
   <style name="PhpMagicFunction" foreground="#EFEA4F"/>
   <style name="PhpNameSpace" foreground="#678CB1"/>
-  <style name="PhpVariable" foreground="#E8E2B7"/>
-  <style name="PhpClass" foreground="#d91161"  bold="0" />
+  <style name="PhpVariable" foreground="#CC6666"/>
+  <style name="PhpClass" foreground="#81A2BE"  bold="1" />
   <style name="PhpTrait" foreground="green"/>
   <style name="PhpInterface" foreground="yellow"/>
   <style name="PhpBroken" foreground="red"/>

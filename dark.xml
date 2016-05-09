@@ -176,7 +176,7 @@
   <style name="MySqlType" foreground="#5500ee"/>
 
    <!-- JSON   -->
-  <style name="JsonNormal" foreground="#282828"/>
+  <style name="JsonNormal" foreground="#93C763"/>
   <style name="JsonComment" foreground="#99A38A"/>
   <style name="JsonNumber" foreground="#FFCD22"/>
   <style name="JsonString" foreground="#EC7600"/>
