@@ -189,10 +189,10 @@
   <style name="MySqlType" foreground="#5500ee"/>
 
    <!-- JSON   -->
-  <style name="JsonNormal" foreground="#282828"/>
-  <style name="JsonNumber" foreground="#FFCD22"/>
+  <style name="JsonNormal" foreground="#B294BB" bold="1" />
+  <style name="JsonNumber" foreground="#FFCD22" bold="1" />
   <style name="JsonString" foreground="#B5BD68"/>
-  <style name="JsonOperator" foreground="#A02DCC"/>
-  <style name="JsonIdentifier" foreground="#B294BB"/>
+  <style name="JsonOperator" foreground="#B294BB" bold="1" />
+  <style name="JsonIdentifier" foreground="#B294BB" bold="1" />
 
 </style-scheme>
